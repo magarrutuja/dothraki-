@@ -7,9 +7,8 @@ var serverURL = "https://api.funtranslations.com/translate/dothraki.json";
 function getTranslationURL(text) {
   return serverURL + "?" + "text=" + text;
 }
-
 function errorHandler(error) {
-  return serverURL + "?" + "text=" + text;
+  alert("error occurred", error);
 }
 
 function clickHandler() {
